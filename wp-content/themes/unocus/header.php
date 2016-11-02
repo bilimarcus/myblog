@@ -23,8 +23,9 @@
 	<div id="progress"></div>
 <!-- 移动端导航 -->
   	<div id="mo-nav">
-  		
+  		<?php wp_nav_menu( array( 'depth' => 2, 'theme_location' => 'primary', 'container' => false ) ); ?>
   	</div>
+
   	<div id="page" class="site wrapper">
   		
   	</div>
